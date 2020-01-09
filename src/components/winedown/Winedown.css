@@ -1,0 +1,75 @@
+#workHeader {
+    height: 200px;
+    width: 200px;
+}
+
+.workTitle {
+    text-align: center;
+}
+
+.titleImage {
+    background-color: #845054;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bodyText {
+    width: 66%;
+    text-align: left;
+    margin-left: 8%;
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: 15px;
+    color: #333333;
+}
+
+.problemDiv {
+    width: 66%;
+    text-align: left;
+    margin-left: 8%;
+}
+
+.descriptorOne {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectSpecs {
+    margin-left: 3%;
+}
+
+.headingx {
+    padding-top: 30px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+#persona {
+    height: 580px;
+}
+
+#sketch {
+    height: 350px;
+    margin: 0 2px 0 2px;
+}
+
+.sketchDiv {
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: 15px;
+    color: #333333;
+}
