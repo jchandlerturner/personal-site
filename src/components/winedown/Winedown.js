@@ -6,7 +6,7 @@ export default class Winedown extends Component {
         return (
             <>
                 <section className="titleImage">
-                    <img id="workHeader" src={require('./simpleLogo-01.png')} alt="Winedown Logo" />
+                    <img id="workHeader" src={require('./winedownHeader-01.png')} alt="Winedown Logo" />
                     <h3 className="workTitle">Front End Capstone</h3>
                 </section>
                 <section className="descriptorOne">
@@ -55,12 +55,48 @@ export default class Winedown extends Component {
                     </div>
                 </section>
                 <section>
-                    <div className="sketchDiv">
+                    <div className="imageText">
                         <h3 className="headingx">Sketches & Wireframes</h3>
-                        <p className="bodyText">After my research and talking to potential users, it was time to rough sketch my app. I'd never sketched an app ideation before, but was excited to tackle the challenge!</p>
+                    </div>
+                    <p className="sketchP">After my research and talking to potential users, it was time to rough sketch my app. I'd never sketched an app ideation before, but was excited to tackle the challenge!</p>
+                    <div className="imageText">
                         <img id="sketch" src={require('./wireframe1.jpg')} alt="Bartender Persona" />
                         <img id="sketch" src={require('./wireframe2.jpg')} alt="Bartender Persona" />
                         <img id="sketch" src={require('./wireframe3.jpg')} alt="Bartender Persona" />
+                        {/* <br></br>
+                        <br></br>
+                        <img id="persona" src={require('./wD-persona-01.png')} alt="Millenial Persona" /> */}
+                    </div>
+                </section>
+                <section>
+                    <div className="bodyText">
+                        <h3 className="headingx">Testing</h3>
+                        <p>I refined the UX & UI through testing with multiple classmates and coworkers in the restaurant industry. Based on feedback I got from multiple users, I decided to change the value of "location" on the cards to simplify the UX since most bartenders or servers wouldn't necessarily care about the location the wine was purchased at. 
+                        <br></br>
+                        <br></br>I was also intent on building a social function for the app, but in user testing most people saw this app as most helpful as just a simple wine journal instead of a social platform. 
+                       </p>
+                        {/* <br></br>
+                        <br></br>
+                        <img id="persona" src={require('./wD-persona-01.png')} alt="Millenial Persona" /> */}
+                    </div>
+                </section>
+                <section>
+                    <div className="bodyText">
+                        <h3 className="headingx">Key Takeaways and Learnings</h3>
+                        <p>This project was my first app I'd ever coded and taken all the way from ideation to development. Overcoming imposter syndrome was a huge part of this project, and I'm proud to have come out on the other side!
+                        <br></br>
+                        <br></br>
+                        Originally, I had a different idea of what this app would be—I imagined it would be more of a social platform to share wine with friends, but as I started talking to coworkers I noticed that there was a specific problem I could tackle. After user testing, a few features I thought were "key" (plot twist: they were not) became obsolete and this app became simpler and more effective!
+                        <br></br>
+                        <br></br>
+                        During talks with UX professionals, I got solid feedback on the UI of winedown such as; making the cards wider to give more margin and breathing room and also to consult Apple's Human Interface Guidelines (HIG) about tappable buttons and areas.
+                        <br></br>
+                        <br></br>
+                        In Version 2.0, I'd like to:
+                        <br></br>
+                        👇Update buttons and areas to follow HIG
+
+                       </p>
                         {/* <br></br>
                         <br></br>
                         <img id="persona" src={require('./wD-persona-01.png')} alt="Millenial Persona" /> */}

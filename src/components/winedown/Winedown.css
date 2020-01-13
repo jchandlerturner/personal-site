@@ -1,6 +1,5 @@
 #workHeader {
     height: 200px;
-    width: 200px;
 }
 
 .workTitle {
@@ -56,6 +55,7 @@
     text-transform: uppercase;
     margin-bottom: 8px;
     color: #333333;
+    margin-top: 15px;
 }
 
 #persona {
@@ -68,6 +68,26 @@
 }
 
 .sketchDiv {
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: 15px;
+    color: #333333;
+}
+
+.imageText {
+    width: 100%;
+    text-align: left;
+    margin-left: 8%;
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: 15px;
+    color: #333333;
+}
+
+.sketchP {
+    width: 66%;
+    text-align: left;
+    margin-left: 8%;
     font-family: 'Roboto';
     line-height: 1.5;
     font-size: 15px;
